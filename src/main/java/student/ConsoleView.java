@@ -4,7 +4,7 @@ import java.util.Scanner; // this imports the Scanner class from the java.util p
 import java.util.List; // this imports the List class from the java.util package.
 
 /**
- * ClientView is a class that is used to interact with the client.
+ * ConsoleView is a class that is used to interact with the client.
  *
  * <p>
  * Every function is static, along with keeping the Scanner to system.in static. It is suggested
@@ -18,7 +18,7 @@ public final class ConsoleView {
     // application to
     // prevent conflicts.
     /** scanner pointing towards System.in. */
-    private static final Scanner SCANNER = new Scanner(System); // System.in is a standard input
+    private static final Scanner SCANNER = new Scanner(System.in); // System.in is a standard input
                                                                 // stream, it is used to read
                                                                 // data from the keyboard.
     /** Stores the locality lists from Greeter to prevent additional copies. */
