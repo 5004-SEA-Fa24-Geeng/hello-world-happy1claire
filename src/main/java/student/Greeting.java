@@ -1,14 +1,7 @@
 package student;
 
 /**
- * This class is a place holder which you will fully implement based on the javadoc.
- *
- * https://cs5004-khoury-lionelle.github.io/hello_world/student/package-summary.html
- *
- */
-
-/**
- * Greeting class is meant to give user customized greeting message
+ * Greeting class is meant to give user customized greeting message.
  */
 public class Greeting extends Object {
     private int localityID;
@@ -28,8 +21,10 @@ public class Greeting extends Object {
     }
 
     /**
-     * Greeting that creates a greeting with ascii and unicode characters assuming the language is already using ascii letters only. It also assumes the format of the greeting to be "{greeting}, {name}!"
-     * For the default format string you will want to use "%s, %%s!" which places the greeting before the persons potential name.
+     * Greeting that creates a greeting with ascii and unicode characters assuming the language is already using ascii
+     * letters only. It also assumes the format of the greeting to be "{greeting}, {name}!"
+     * For the default format string you will want to use "%s, %%s!"
+     * which places the greeting before the persons potential name.
      * @param localityID  id of the locality
      * @param localityName name of the locality
      * @param greeting greeting using ascii characters
@@ -41,8 +36,10 @@ public class Greeting extends Object {
     }
 
     /**
-     * Greeting that creates a greeting with ascii and unicode characters. It makes no assumptions and everything needs to be provided.
-     * Often the other constructors will call this very detailed constructor. Using the following code (as an example this is the code for one of the constructors).
+     * Greeting that creates a greeting with ascii and unicode characters.
+     * It makes no assumptions and everything needs to be provided.
+     * Often the other constructors will call this very detailed constructor.
+     * Using the following code (as an example this is the code for one of the constructors).
      * @param localityID  id of the locality
      * @param localityName name of the locality
      * @param asciiGreeting greeting using ascii characters
@@ -91,7 +88,8 @@ public class Greeting extends Object {
     }
 
     /**
-     * Gets the unicode format string. This string will have a %s, so that the name can be inserted into the greeting in the correct location.
+     * Gets the unicode format string. This string will have a %s,
+     * so that the name can be inserted into the greeting in the correct location.
      * @return the format string with the greeting inserted into the format
      */
     public String getFormatStr() {
@@ -99,7 +97,8 @@ public class Greeting extends Object {
     }
 
     /**
-     * Returns the format string with the greeting inserted into the format. This string will have a %s, so that the name can be inserted into the greeting in the correct location.
+     * Returns the format string with the greeting inserted into the format.
+     * This string will have a %s, so that the name can be inserted into the greeting in the correct location.
      * An example use is as follows:
      *  Greeting g = new Greeting(2, "English");
      *  // later in code
