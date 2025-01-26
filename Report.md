@@ -25,10 +25,12 @@ The program execute by the steps below.<br>
 ## Assignment Questions
 
 1. List three additional java syntax items you didn't know when reading the code.  (make sure to use * for the list items, see example below, the backtick marks are used to write code inline with markdown)
-   <br><br>**Example**
+   
+   **Example**
    * Final[^1]
    * Math[^2]
-   <br><br>**My example**
+
+   **My example**
    * Static[^3]
    * Private constructor[^4]
    * Override[^5]<br>
