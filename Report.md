@@ -25,10 +25,14 @@ The program execute by the steps below.<br>
 ## Assignment Questions
 
 1. List three additional java syntax items you didn't know when reading the code.  (make sure to use * for the list items, see example below, the backtick marks are used to write code inline with markdown)
+   <br><br>**Example**
+   * Final[^1]
+   * Math[^2]
+   <br><br>**My example**
+   * Static[^3]
+   * Private constructor[^4]
+   * Override[^5]<br>
    
-   * Static
-   * Private constructor
-   * Override
 
 2. For each syntax additional item listed above, explain what it does in your own words and then link a resource where you figured out what it does in the references section. 
 
@@ -74,15 +78,15 @@ These questions require deeper thinking of the topic. We don't expect 100% corre
 
 ## References
 
-[1]: Final keyword in Java: 2024. https://www.geeksforgeeks.org/final-keyword-in-java/. Accessed: 2024-03-30. 
+[^1]: Final keyword in Java: 2024. https://www.geeksforgeeks.org/final-keyword-in-java/. Accessed: 2024-03-30. 
 
-[2]: Math (Java Platform SE 17). https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Math.html. Accessed: 2024-03-30.
+[^2]: Math (Java Platform SE 17). https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Math.html. Accessed: 2024-03-30.
 
-[3]: Static Keyword in Java https://www.geeksforgeeks.org/static-keyword-java/ Accessed: 2025-01-25.
+[^3]: Static Keyword in Java https://www.geeksforgeeks.org/static-keyword-java/ Accessed: 2025-01-25.
 
-[4]: Overriding in Java https://www.geeksforgeeks.org/overriding-in-java/ Accessed: 2025-01-25.
+[^4]: Overriding in Java https://www.geeksforgeeks.org/overriding-in-java/ Accessed: 2025-01-25.
 
-[5]: Private Constructors in Java https://www.baeldung.com/java-private-constructors Accessed: 2025-01-25.
+[^5]: Private Constructors in Java https://www.baeldung.com/java-private-constructors Accessed: 2025-01-25.
 
 
 <!-- This is a comment, below this link the links in the document are placed here to make ti easier to read. This is an optional style for markdown, and often as a student you will include the links inline. for example [mermaid](https://mermaid.js.org/intro/syntax-reference.html) -->
