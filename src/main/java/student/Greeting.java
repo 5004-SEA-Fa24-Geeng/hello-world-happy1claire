@@ -1,13 +1,22 @@
 package student;
 
 /**
- * Greeting class is meant to give user customized greeting message.
+ * The greeting class stores the locality ID, locality name, and a string format of the greeting both ascii and unicode.
+ * That way the various ways to look at the greeting are paired together,
+ * which could simplify the process of looking up the greeting making it easier to add additional
+ * greeting types without having to change code in other places.
  */
 public class Greeting extends Object {
-    private int localityID;
-    private String localityName;
+
+    /** String holds the locality ID.*/
+    private final int localityID;
+    /** String holds the locality name.*/
+    private final String localityName;
+    /** String holds the ASCII greeting.*/
     private String asciiGreeting;
+    /** String holds the Unicode greeting.*/
     private String unicodeGreeting;
+    /** String holds the format of greeting.*/
     private String formatStr;
 
     /**
