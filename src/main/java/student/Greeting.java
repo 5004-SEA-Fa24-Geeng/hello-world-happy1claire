@@ -1,12 +1,16 @@
 package student;
 
 /**
- * This class is a place holder which you will fully implement based on the javadoc
- * 
+ * This class is a place holder which you will fully implement based on the javadoc.
+ *
  * https://cs5004-khoury-lionelle.github.io/hello_world/student/package-summary.html
- * 
+ *
  */
-public class Greeting extends Object{
+
+/**
+ * Greeting class is meant to give user customized greeting message
+ */
+public class Greeting extends Object {
     private int localityID;
     private String localityName;
     private String asciiGreeting;
@@ -19,7 +23,8 @@ public class Greeting extends Object{
      * @param localityName name of the locality
      */
     public Greeting(int localityID, String localityName) {
-        this(localityID, localityName, "Hello");
+        this(localityID, localityName,
+                "Hello");
     }
 
     /**
@@ -29,8 +34,10 @@ public class Greeting extends Object{
      * @param localityName name of the locality
      * @param greeting greeting using ascii characters
      */
-    public Greeting(int localityID, String localityName, String greeting) {
-        this(localityID, localityName, greeting, greeting, "%s, %%s!");
+    public Greeting(int localityID,
+                    String localityName, String greeting) {
+        this(localityID, localityName,
+                greeting, greeting, "%s, %%s!");
     }
 
     /**
